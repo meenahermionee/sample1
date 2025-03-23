@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sample website 1</title>
+        <style>
+            body {
+                background-image: url('soft grass.jpg');
+            }
+            .products-container {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 20px;
+                flex-wrap: wrap;
+                margin: 20px auto;
+            }
+            .black-bg1 {
+                border-radius: 20px;
+                color: white;
+                background-color: rgb(47, 47, 47);
+                font: helvetica;
+                font-weight: bolder;
+                margin-right: 200px;
+                border: none;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 20px;
+                transition-duration: .15s;
+            }
+            .black-bg1:active {
+                opacity: .5;
+            }
+            .black-bg2 {
+                border-radius: 20px;
+                color: white;
+                background-color: rgb(47, 47, 47);
+                font: helvetica;
+                font-weight: bolder;
+                margin-right: 10px;
+                border: none;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 20px;
+                transition-duration: .15s;
+            }
+            .black-bg2:active {
+                opacity: .5;
+            }
+            .white-bg {
+                border-radius: 20px;
+                color: rgb(47, 47, 47);
+                background-color: white;
+                font: helvetica;
+                font-weight: bolder;
+                margin-right: 100px;
+                border: none;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 20px;
+                transition-duration: .15s;
+            }
+            .white-bg:Active {
+                opacity: .5;
+            }
+            .big-title {
+                text-align: center;
+                font-family: helvetica;
+                font-weight: bolder;
+                font-size: 120px;
+                color: rgb(255, 250, 232);
+                text-shadow: 2px 2px 5px #6a6a6a;
+                margin-bottom: 30px;
+                margin-top: 20px;
+            }
+            .under-big-title {
+                text-align: center;
+                font-family: helvetica;
+                font-size: 25px;
+                color: rgb(255, 250, 232);
+                text-shadow: 2px 2px 5px #6a6a6a;
+                font-weight: lighter;
+            }
+            .within-lines {
+                text-align: center;
+                font-family: helvetica;
+                font-size: 21px;
+                color: black;
+                display: block;
+                margin: auto;
+                font-weight: lighter;
+            }
+            .product-section {
+                background-color: rgb(255, 250, 232);
+            }
+            .first-hr {
+                border-radius: 10px;
+            }
+            .product {
+                width: 250px;
+                align-items: center;
+                padding: 20px 0;
+                margin: auto;
+            }
+            .flower-product {
+                display: inline-block;
+                margin: auto;
+                align-items: center;
+                text-align: center;
+            }
+            .label {
+                text-align: center;
+                align-items: center;
+                font-family: helvetica;
+                font-weight: lighter;
+                color: rgb(202, 129, 141);
+                border-width: 2px;
+            }
+            .order {
+                border-width: 1px;
+                border-radius: 15px;
+                color: rgb(202, 129, 141);
+                background-color: rgb(255, 250, 232);
+                transition-duration: .5s;
+                border: none;
+                font-size: 20px;
+                opacity: .9;
+                margin: auto;
+            }
+            .order:hover {
+                cursor: pointer;
+            }
+            .order:active {
+                opacity: 0.7;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="black-bg1">home</button>
+        <button class="white-bg">shop</button>
+        <button class="black-bg2">learn</button>
+        <p class="big-title">Sample</p>
+        <p class="under-big-title">gardens for everyone.</p>
+        <div class="product-section">
+        <hr class="first-hr">
+        <p class="within-lines">no yard doesn't have to mean no garden! let your flowers bloom.</p>
+        <hr class="first-hr">
+        <div class="products-container">
+        <div class="flower-product">
+        <img class="product" src="flower1.png">
+        <p class="label">Pretty Flower $5</button>
+        </div>
+        <div class="flower-product">
+        <img class="product" src="limee.png">
+        <p class="label">Zesty Lime $2</p>
+        </div>
+        <div class="flower-product">
+        <img class="product" src="tomatoo.png">
+        <p class="label">Fresh Tomato $2</p>
+        </div>
+        <div class="flower-product">
+        <img class="product" src="pink flower.png">
+        <p class="label">Divine Flower $6</p>
+        </div>
+        </div>
+        </div>
+        <button class="order">Order here</button>
+        </body>
+    </body>
+</html>
